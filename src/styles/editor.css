@@ -1,0 +1,73 @@
+/* Rich Text Editor Styles */
+.rich-text-editor {
+  @apply mb-8;
+}
+
+.rich-text-editor .ql-container {
+  @apply min-h-[200px] text-lg;
+  font-family: inherit;
+}
+
+.rich-text-editor .ql-editor {
+  @apply min-h-[200px] text-lg;
+}
+
+.rich-text-editor .ql-toolbar {
+  @apply border border-gray-300 rounded-t-md bg-white;
+}
+
+.rich-text-editor .ql-container {
+  @apply border border-gray-300 border-t-0 rounded-b-md bg-white;
+}
+
+.rich-text-editor .ql-toolbar button {
+  @apply hover:bg-gray-100 rounded;
+}
+
+.rich-text-editor .ql-toolbar .ql-active {
+  @apply bg-gray-100;
+}
+
+/* Blog Content Styles */
+.blog-content {
+  @apply text-lg leading-relaxed text-gray-800;
+}
+
+.blog-content h1,
+.blog-content h2,
+.blog-content h3 {
+  @apply font-light mt-8 mb-4;
+}
+
+.blog-content h1 { @apply text-4xl; }
+.blog-content h2 { @apply text-3xl; }
+.blog-content h3 { @apply text-2xl; }
+
+.blog-content p {
+  @apply mb-6;
+}
+
+.blog-content strong { @apply font-semibold; }
+.blog-content em { @apply italic; }
+.blog-content u { @apply underline; }
+
+.blog-content > *:first-child {
+  @apply mt-0;
+}
+
+.blog-content > *:last-child {
+  @apply mb-0;
+}
+
+/* Text Alignment Classes */
+.blog-content .ql-align-center {
+  @apply text-center;
+}
+
+.blog-content .ql-align-right {
+  @apply text-right;
+}
+
+.blog-content .ql-align-justify {
+  @apply text-justify;
+}
